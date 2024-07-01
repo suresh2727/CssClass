@@ -1,0 +1,44 @@
+
+*{
+	font-family: cursive;
+}
+
+#one , #pone{
+	color: red;
+}
+
+.two , .ptwo{
+	color: whitesmoke;
+	background-color: black;
+}
+
+
+button:hover{
+	color: whitesmoke;
+	background-color: black;
+	border: 4px solid red;
+}
+
+
+a[href]{
+	color: red;
+	text-decoration: none;
+
+}
+
+a[href^="https"]{
+	color: darkviolet;
+}
+
+a[href$=".pdf"]{
+	color: hsl(240,50%,40%,0.5);
+}
+
+
+input[type="text"]{
+	background-color: blue;
+}
+
+input[name="password"]{
+	border: 5px solid saddlebrown;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 30px 0px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+}   
+
+.card h3{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+label{
+    padding-left: 20px ;
+    margin: 0px 0px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    padding: 5px;
+}
+
+select,textarea{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gender{
+    margin-right: 10px;
+}
+
+p{
+    margin-left: 15px;
+}
+
+button{
+    background-color: rgb(74, 74, 197);
+    color: white;
+    margin: 10px 15px 10px ;
+    padding: 6px 25px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    
+}
+
+
+.itext{
+    width: 90%;
+}
+
+.checkbox{
+    margin-right: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
