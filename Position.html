@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .parent{
+        width: 100%;
+        border: 2px dashed blue;
+        display: flex;
+      }
+
+      .child{
+        height: 300px;
+        width: 300px;
+        background-color: green;
+        margin: 10px;
+
+      }
+
+      #two{
+        background-color: red;
+        position: relative;
+        top: 10px;
+        left: 590px;
+      }
+
+       
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child" id="two">2</div>
+        <div class="child">3</div>
+    </div>
+</body>
+</html>
